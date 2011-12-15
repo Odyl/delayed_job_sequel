@@ -92,6 +92,7 @@ module Delayed
           self.attempts   ||= 0
           self.created_at ||= Time.now
           self.priority   ||= 0
+          self.run_at     ||= Time.now
         end
 
         def before_save
