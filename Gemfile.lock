@@ -1,8 +1,8 @@
 GIT
-  remote: git@github.com:farmisen/delayed_job.git
-  revision: 86a33cf840d261e5e3353baaeb99a4ea0779276a
+  remote: git@github.com:Odyl/delayed_job.git
+  revision: 2d4b5fb8a4cb474c09f7126e18ceeff61471cd48
   specs:
-    delayed_job (2.1.1)
+    delayed_job (2.1.2)
       activesupport (~> 3.0)
       daemons
 
@@ -10,7 +10,7 @@ GEM
   remote: http://rubygems.org/
   specs:
     activesupport (3.0.3)
-    daemons (1.1.0)
+    daemons (1.1.4)
     diff-lcs (1.1.2)
     i18n (0.4.2)
     rake (0.8.7)
