@@ -96,7 +96,7 @@ module Delayed
         end
 
         def before_save
-          set_default_run_at
+          self.run_at = Time.now
           super
         end
 
